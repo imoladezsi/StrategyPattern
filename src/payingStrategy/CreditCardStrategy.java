@@ -1,3 +1,4 @@
+package payingStrategy;
 
 public class CreditCardStrategy implements PaymentStrategy {
 
