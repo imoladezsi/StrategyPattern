@@ -19,7 +19,7 @@ class ErrorCalculator {
             System.out.print("Sizes of arrays differ");
             return;
         }
-        ArrayList<Integer> diff = new ArrayList<Integer>(actual.size());
+        ArrayList<Integer> diff = new ArrayList<>(actual.size());
         for (int i = 0; i < actual.size(); i++){
             diff.add(abs(actual.get(i) - expected.get(i)));
         }
